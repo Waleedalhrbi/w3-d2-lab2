@@ -88,3 +88,32 @@ if (words.includes("javascript")) {
 } else {
     console.log("Does not exist");
 }
+
+/* Task5-1 */
+
+function sum(num1, num2){
+    return num1 + num2;
+}
+console.log(sum(1,2));
+
+function Sub(num1, num2){
+    return num1 - num2;
+}
+console.log(Sub(6,2));
+
+
+function mult(num1, num2){
+    return num1 * num2;
+}
+console.log(mult(2,2));
+
+function divi(num1, num2){
+    return num1 / num2;
+}
+console.log(divi(4,2));
+
+function remainder(num1, num2){
+    return num1 % num2;
+}
+console.log(divi(6,2));
+
